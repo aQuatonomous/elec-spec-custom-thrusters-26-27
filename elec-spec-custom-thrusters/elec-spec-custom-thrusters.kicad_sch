@@ -2,9 +2,145 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid dea01f26-a5c3-49c9-871d-92299cda5af6)
+	(uuid "dea01f26-a5c3-49c9-871d-92299cda5af6")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 13.97 13.97)
+		(end 113.03 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "37662804-6908-45f1-9748-e5558d94f51c")
+	)
+	(rectangle
+		(start 116.84 13.97)
+		(end 215.9 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4b234acd-10f9-47f4-b3af-8ada587048eb")
+	)
+	(text "MCU subsheet\n"
+		(exclude_from_sim no)
+		(at 35.306 17.526 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "7ec25453-c7b3-4817-843a-4f10b8956354")
+	)
+	(text "Motor Driver subsheet\n"
+		(exclude_from_sim no)
+		(at 150.368 18.034 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "c739351d-fad5-49ee-aba7-59180f2c1584")
+	)
+	(sheet
+		(at 27.94 36.83)
+		(size 59.69 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7aed0700-6fb9-4f41-834a-f35446f06274")
+		(property "Sheetname" "MCU"
+			(at 27.94 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 27.94 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "elec-spec-custom-thrusters"
+				(path "/dea01f26-a5c3-49c9-871d-92299cda5af6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 40.64)
+		(size 59.69 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a55c108c-8922-4787-9068-bf9873282954")
+		(property "Sheetname" "Motor Driver"
+			(at 135.89 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 135.89 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "elec-spec-custom-thrusters"
+				(path "/dea01f26-a5c3-49c9-871d-92299cda5af6"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
